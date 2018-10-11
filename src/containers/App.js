@@ -38,8 +38,8 @@ class App extends Component{
     return isPending ?
          <h1>Loading</h1> :
          (
-                <div className='tc'>
-                    <h1 className='f1'>Robo Search</h1>
+                <div className='tc' >
+                    <h1 className='f1 lh-title'>Robo Search</h1>
                     <SearchBox searchChange={onSearchChange}/>
                     <Scroll>
                         <ErrorBoundry>
