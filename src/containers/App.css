@@ -14,3 +14,25 @@ h1 {
     font-weight: 200;
     color: #96CCFF
 }
+
+.boutline{
+    outline: none;
+}
+
+.boutline:focus{
+    box-shadow: 0 0 1px #96CCFF;
+    border: 1px solid #96CCFF;
+}
+
+::placeholder {
+    color: silver;
+    opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: silver;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+    color: silver;
+}
